@@ -32,10 +32,10 @@ class Stack{
     bool isEmpty(){ return (top > 0); }
 
     void display(){
-        cout<<"Top:";
         for(int i=0;i<=top;i++){
             cout<<myStack[i]<<endl;
         }
+        cout<<"Top^";
     }
 };
 
@@ -46,6 +46,7 @@ int main(){
     stack.push(9);
     stack.push(11);
     stack.push(55);
+    stack.pop();
     stack.display();
     return 0;
 }
