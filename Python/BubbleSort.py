@@ -11,6 +11,7 @@ def BubbleSort(ar):
                 temp = ar[y]
                 ar[y] = ar[y+1]
                 ar[y+1] = temp
+    return ar
 
 def main():
     ar = [12,77,98,45,8,5,44,36,15,50]
